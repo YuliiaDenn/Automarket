@@ -3,25 +3,19 @@ package entity;
 public class Mark {
 
 	private int id;
-
 	private String mark;
-
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	public String getMark() {
 		return mark;
 	}
-
 	public void setMark(String mark) {
 		this.mark = mark;
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -30,7 +24,6 @@ public class Mark {
 		result = prime * result + ((mark == null) ? 0 : mark.hashCode());
 		return result;
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -49,10 +42,10 @@ public class Mark {
 			return false;
 		return true;
 	}
-
 	@Override
 	public String toString() {
 		return "Mark [id=" + id + ", mark=" + mark + "]";
 	}
-
+	
+	
 }
